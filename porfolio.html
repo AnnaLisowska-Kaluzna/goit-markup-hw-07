@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <section class="section section-header">
+      <header class="container">
+        <div class="header">
+          <h3>
+            <a class="header__logo" href="index.html"
+              ><span class="header__logo-part">Web</span>Studio</a
+            >
+          </h3>
+          <nav>
+            <ul class="header__menu">
+              <li><a class="header__link" href="index.html">Agencja</a></li>
+              <li>
+                <a class="header__link header__portfolio" href="./porfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li><a class="header__link" href="./kontakt.html">Kontakt</a></li>
+            </ul>
+          </nav>
+          <ul class="header__contacts">
+            <li>
+              <a class="header__link-contact" href="mailto:info@devstudio.com">
+                <svg class="header__icon-envelope" width="16" height="12">
+                  <use href="images/icons.svg#icon-envelope-2"></use>
+                </svg>
+                info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="header__link-contact" href="tel:+48111111111">
+                <svg class="header__icon-vector" width="10" height="16">
+                  <use href="images/icons.svg#icon-Vector-2"></use>
+                </svg>
+                111 111 111</a
+              >
+            </li>
+          </ul>
+        </div>
+      </header>
+    </section>
+    <main>
+      <section class="section section-filters">
+        <ul class="filters">
+          <li><button class="filters__btn" type="button">Wszystkie</button></li>
+          <li><button class="filters__btn" type="button">Strony</button></li>
+          <li><button class="filters__btn" type="button">Aplikacje</button></li>
+          <li><button class="filters__btn" type="button">Dizajn</button></li>
+          <li><button class="filters__btn" type="button">Marketing</button></li>
+        </ul>
+      </section>
+      <section class="section section-grid">
+        <div class="container">
+          <ul class="grid">
+            <li>
+              <figure class="grid__item">
+                <div class="grid__item-box">
+                  <img
+                    src="./images/photo1.jpg"
+                    alt="laptop"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="grid__overlay">
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Illo nihil, minus ut eaque error ipsa sapiente obcaecati
+                      eius, iure numquam reprehenderit unde consequatur
+                      exercitationem tenetur ea deleniti?
+                    </p>
+                  </div>
+                </div>
+                <figcaption class="grid__borderfig">
+                  <p class="grid__project-title">Technocrack</p>
+                  <p class="grid__project-text">Strona internetowa</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="grid__item">
+                <div class="grid__item-box">
+                  <img
+                    src="./images/photo2.jpg"
+                    alt="basketball players"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="grid__overlay">
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Illo nihil, minus ut eaque error ipsa sapiente obcaecati
+                      eius, iure numquam reprehenderit unde consequatur
+                      exercitationem tenetur ea deleniti?
+                    </p>
+                  </div>
+                </div>
+                <figcaption class="grid__borderfig">
+                  <p class="grid__project-title">Grafika New Orlean vs Golden Star</p>
+                  <p class="grid__project-text">Dizajn</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="grid__item">
+                <div class="grid__item-box">
+                  <img
+                    src="./images/photo3.jpg"
+                    alt="the seafood restaurant logo"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="grid__overlay">
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Illo nihil, minus ut eaque error ipsa sapiente obcaecati
+                      eius, iure numquam reprehenderit unde consequatur
+                      exercitationem tenetur ea deleniti?
+                    </p>
+                  </div>
+                </div>
+                <figcaption class="grid__borderfig">
+                  <p class="grid__project-title">Restauracja Seafood</p>
+                  <p class="grid__project-text">Aplikacja</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="grid__item">
+                <div class="grid__item-box">
+                  <img
+                    src="images/photo4.jpg"
+                    alt="headphones"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="grid__overlay">
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Illo nihil, minus ut eaque error ipsa sapiente obcaecati
+                      eius, iure numquam reprehenderit unde consequatur
+                      exercitationem tenetur ea deleniti?
+                    </p>
+                  </div>
+                </div>
+                <figcaption class="grid__borderfig">
+                  <p class="grid__project-title">Projekt Prime</p>
+                  <p class="grid__project-text">Marketing</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="grid__item">
+                <div class="grid__item-box">
+                  <img
+                    src="./images/photo5.jpg"
+                    alt="boxes"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="grid__overlay">
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Illo nihil, minus ut eaque error ipsa sapiente obcaecati
+                      eius, iure numquam reprehenderit unde consequatur
+                      exercitationem tenetur ea deleniti?
+                    </p>
+                  </div>
+                </div>
+                <figcaption class="grid__borderfig">
+                  <p class="grid__project-title">Projekt Boxes</p>
+                  <p class="grid__project-text">Aplikacja</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="grid__item">
+                <div class="grid__item-box">
+                  <img
+                    src="./images/photo6.jpg"
+                    alt="computer monitor"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="grid__overlay">
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Illo nihil, minus ut eaque error ipsa sapiente obcaecati
+                      eius, iure numquam reprehenderit unde consequatur
+                      exercitationem tenetur ea deleniti?
+                    </p>
+                  </div>
+                </div>
+                <figcaption class="grid__borderfig">
+                  <p class="grid__project-title">Inspiration has no Borders</p>
+                  <p class="grid__project-text">Strona internetowa</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="grid__item">
+                <div class="grid__item-box">
+                  <img
+                    src="./images/photo7.jpg"
+                    alt="magazine"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="grid__overlay">
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Illo nihil, minus ut eaque error ipsa sapiente obcaecati
+                      eius, iure numquam reprehenderit unde consequatur
+                      exercitationem tenetur ea deleniti?
+                    </p>
+                  </div>
+                </div>
+                <figcaption class="grid__borderfig">
+                  <p class="grid__project-title">Magazyn Limited Edition</p>
+                  <p class="grid__project-text">Dizajn</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="grid__item">
+                <div class="grid__item-box">
+                  <img
+                    src="./images/photo8.jpg"
+                    alt="label"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="grid__overlay">
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Illo nihil, minus ut eaque error ipsa sapiente obcaecati
+                      eius, iure numquam reprehenderit unde consequatur
+                      exercitationem tenetur ea deleniti?
+                    </p>
+                  </div>
+                </div>
+                <figcaption class="grid__borderfig">
+                  <p class="grid__project-title">Projekt LAB</p>
+                  <p class="grid__project-text">Marketing</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="grid__item">
+                <div class="grid__item-box">
+                  <img
+                    src="./images/photo9.jpg"
+                    alt="work on laptop"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="grid__overlay">
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Illo nihil, minus ut eaque error ipsa sapiente obcaecati
+                      eius, iure numquam reprehenderit unde consequatur
+                      exercitationem tenetur ea deleniti?
+                    </p>
+                  </div>
+                </div>
+                <figcaption class="grid__borderfig">
+                  <p class="grid__project-title">Growing Business</p>
+                  <p class="grid__project-text">Aplikacja</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <section class="section section-bottom">
+      <footer class="footer">
+        <div class="container">
+          <div>
+            <a class="footer__logo" href="index.html"
+              ><span class="footer__logo-part">Web</span>Studio</a
+            >
+            <address>
+              <p class="footer__location">
+                m. Warszawa, Aleje Jerozolimskie 21
+              </p>
+              <ul class="footer__contacts">
+                <li>
+                  <a
+                    class="footer__link-location"
+                    href="mailto:info@example.com"
+                    >info@example.com</a
+                  >
+                </li>
+                <li>
+                  <a class="footer__link-location" href="tel:+48111111111"
+                    >+48 111 111 111</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="footer__join">
+            <h4 class="footer__join-title">DOŁĄCZ DO NAS</h4>
+            <ul class="footer__sociales social-icons">
+              <li class="footer__icon social-icon">
+                <a href="/index.html">
+                  <svg
+                    class="footer__icon-social icon-instagram"
+                    width="20"
+                    height="20"
+                  >
+                    <use href="./images/icons.svg#icon-instagram-2-2"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__icon social-icon">
+                <a href="/index.html">
+                  <svg
+                    class="footer__icon-social icon-twitter"
+                    width="20"
+                    height="20"
+                  >
+                    <use href="./images/icons.svg#icon-twitter-1-2"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__icon social-icon">
+                <a href="/index.html">
+                  <svg
+                    class="footer__icon-social icon-facebook"
+                    width="20"
+                    height="20"
+                  >
+                    <use href="./images/icons.svg#icon-facebook-1-2"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__icon social-icon">
+                <a href="/index.html">
+                  <svg
+                    class="footer__icon-social icon-linkedin"
+                    width="20"
+                    height="20"
+                  >
+                    <use href="./images/icons.svg#icon-linkedin-1-2"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__newsletter">
+            <h4 class="footer__newsletter-title">ZAPISZ SIĘ DO NEWSLETTERA</h4>
+            <form>
+              <label class="footer__label" for="email">
+                <input
+                  class="footer__newsemail"
+                  id="email"
+                  type="email"
+                  name="email"
+                  required
+                  placeholder="E-mail"
+                />
+              </label>
+              <button class="footer__button" type="submit">
+                Zapisz się
+                <svg class="footer__icon-send" width="24" height="24">
+                  <use href="./images/icons.svg#icon-icon-send"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
