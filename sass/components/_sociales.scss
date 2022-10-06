@@ -26,12 +26,10 @@
         cursor: pointer;
         fill: var(--color-white);
         outline-color: var(--color-hover);
-      }
-      &:hover {
         .social {
-            &__svg {
-                fill: var(--color-white);
-            }
+          &__svg {
+            fill: var(--color-white);
+          }
         }
       }
   }
@@ -50,17 +48,15 @@
         cursor: pointer;
         fill: var(--color-white);
         outline-color: var(--color-hover);
-    }
-    &:focus {
         .social {
-            &__svg {
-                fill: var(--color-white);
-            }
+          &__svg {
+            fill: var(--color-white);
+          }
         }
-    }
+        }
   }
-  
-&__svg {
+
+&__svgf {
     fill: var(--color-white);
   } 
 }
