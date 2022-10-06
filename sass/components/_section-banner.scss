@@ -1,0 +1,60 @@
+.section-banner {
+  width: 1600px;
+  height: 600px;
+  background-image: linear-gradient(
+      var(--background-gr-color),
+      var(--background-gr-color)
+    ),
+    url(../images/Img.jpg);
+  margin: auto;
+}
+
+.banner {
+  &__content {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-white);
+    display: flex;
+    width: 696px;
+    height: 120px;
+    margin-top: 200px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    justify-content: center;
+  }
+
+  &__button {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    vertical-align: center;
+    padding-top: 10px;
+    padding-left: 42px;
+    display: flex;
+    justify-items: center;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+    color: var(--color-white);
+    background-color: var(--color-hover);
+    width: 200px;
+    height: 50px;
+    margin-bottom: 200px;
+    margin-left: 485px;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      cursor: pointer;
+      outline-color: var(--color-hover);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    }
+  }
+}

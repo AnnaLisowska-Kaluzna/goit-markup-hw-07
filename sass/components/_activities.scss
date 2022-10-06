@@ -1,0 +1,39 @@
+.activities {
+  &__header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+  }
+
+  &__imgdescript {
+    display: flex;
+    width: 370px;
+    height: 70px;
+    background: var(--background-img-color);
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  &__images {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-top: 50px;
+    gap: 30px;
+    position: relative;
+  }
+}

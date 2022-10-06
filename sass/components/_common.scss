@@ -1,0 +1,30 @@
+body {
+    font-family: "Roboto", "Raleway", sans-serif;
+    color: var(--main-color);
+    background-color: var(--color-white);
+  }
+  
+  img {
+    display: block;
+  }
+  .section {
+    display: flex;
+    width: 100%;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    width: 1200px;
+    padding: 0 15px;
+    align-content: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    justify-items: center;
+  }

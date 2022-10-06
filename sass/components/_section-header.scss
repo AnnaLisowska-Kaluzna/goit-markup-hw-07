@@ -1,0 +1,133 @@
+.section-header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid var(--color-header-border);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  &__logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--color-black);
+    text-decoration: none;
+    width: 145;
+    height: 31px;
+  }
+
+  &__logo-part {
+    color: var(--color-hover);
+  }
+
+  &__menu {
+    font-style: normal;
+    font-weight: medium;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 00.02em;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 93px;
+  }
+
+  &__link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+    text-decoration: none;
+    align-items: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      color: var(--color-hover);
+    }
+  }
+
+  &__agency {
+    color: var(--color-hover);
+    &::after {
+      position: relative;
+      top: 31px;
+      display: block;
+      content: "";
+      width: 53px;
+      height: 4px;
+      background-color: var(--color-hover);
+      border-radius: 2px;
+    }
+  }
+
+  &__portfolio {
+    color: var(--color-hover);
+    &::after {
+      position: relative;
+      top: 31px;
+      display: block;
+      content: "";
+      width: 58px;
+      height: 4px;
+      background-color: var(--color-hover);
+      border-radius: 2px;
+    }
+  }
+
+  &__contacts {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 2;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+  }
+
+  &__menu {
+    display: flex;
+    list-style-type: none;
+    gap: 46px;
+    margin-left: 0;
+  }
+
+  &__link-contact {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--color-grey);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      color: var(--color-hover);
+    }
+  }
+
+  &__icon-envelope {
+    display: inline;
+    fill: currentColor;
+    margin-right: 10px;
+  }
+
+  &__icon-vector {
+    display: inline;
+    fill: currentColor;
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+  }
+}
