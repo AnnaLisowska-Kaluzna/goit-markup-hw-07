@@ -52,34 +52,6 @@
     }
   }
 
-  &__agency {
-    color: var(--color-hover);
-    &::after {
-      position: relative;
-      top: 31px;
-      display: block;
-      content: "";
-      width: 53px;
-      height: 4px;
-      background-color: var(--color-hover);
-      border-radius: 2px;
-    }
-  }
-
-  &__portfolio {
-    color: var(--color-hover);
-    &::after {
-      position: relative;
-      top: 31px;
-      display: block;
-      content: "";
-      width: 58px;
-      height: 4px;
-      background-color: var(--color-hover);
-      border-radius: 2px;
-    }
-  }
-
   &__contacts {
     font-style: normal;
     font-weight: 500;
@@ -129,5 +101,35 @@
     margin-right: 10px;
     position: relative;
     top: 2px;
+  }
+}
+
+.header {
+  &--agency {
+    color: var(--color-hover);
+    &::after {
+      position: relative;
+      top: 31px;
+      display: block;
+      content: "";
+      width: 53px;
+      height: 4px;
+      background-color: var(--color-hover);
+      border-radius: 2px;
+    }
+  }
+
+  &--portfolio {
+    color: var(--color-hover);
+    &::after {
+      position: relative;
+      top: 31px;
+      display: block;
+      content: "";
+      width: 58px;
+      height: 4px;
+      background-color: var(--color-hover);
+      border-radius: 2px;
+    }
   }
 }

@@ -315,7 +315,7 @@ img {
   padding-left: 93px;
 }
 
-.header__agency::after {
+.header--agency::after {
   position: relative;
   top: 31px;
   display: block;
@@ -326,7 +326,7 @@ img {
   border-radius: 2px;
 }
 
-.header__portfolio::after {
+.header--portfolio::after {
   position: relative;
   top: 31px;
   display: block;
@@ -626,7 +626,7 @@ img {
   background-color: var(--background-filters-btn);
 }
 
-.social__icons {
+.social {
   display: flex;
   list-style: none;
   justify-content: center;

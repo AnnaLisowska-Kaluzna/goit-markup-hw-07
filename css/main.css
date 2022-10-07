@@ -925,32 +925,6 @@ img {
 .header__link:hover, .header__link:focus {
   color: var(--color-hover);
 }
-.header__agency {
-  color: var(--color-hover);
-}
-.header__agency::after {
-  position: relative;
-  top: 31px;
-  display: block;
-  content: "";
-  width: 53px;
-  height: 4px;
-  background-color: var(--color-hover);
-  border-radius: 2px;
-}
-.header__portfolio {
-  color: var(--color-hover);
-}
-.header__portfolio::after {
-  position: relative;
-  top: 31px;
-  display: block;
-  content: "";
-  width: 58px;
-  height: 4px;
-  background-color: var(--color-hover);
-  border-radius: 2px;
-}
 .header__contacts {
   font-style: normal;
   font-weight: 500;
@@ -1006,6 +980,33 @@ img {
   margin-right: 10px;
   position: relative;
   top: 2px;
+}
+
+.header--agency {
+  color: var(--color-hover);
+}
+.header--agency::after {
+  position: relative;
+  top: 31px;
+  display: block;
+  content: "";
+  width: 53px;
+  height: 4px;
+  background-color: var(--color-hover);
+  border-radius: 2px;
+}
+.header--portfolio {
+  color: var(--color-hover);
+}
+.header--portfolio::after {
+  position: relative;
+  top: 31px;
+  display: block;
+  content: "";
+  width: 58px;
+  height: 4px;
+  background-color: var(--color-hover);
+  border-radius: 2px;
 }
 
 .section-team {
@@ -1070,7 +1071,7 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.social__icons {
+.social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
